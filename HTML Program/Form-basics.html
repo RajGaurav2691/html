@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="email" >username : </label>
+        <input type="text" id="email" placeholder="email" required="true"><br>  <!--understand label-->
+
+        password : <input type="password"><br>  <!--without using label-->
+
+
+        <input type="text" name="" value="" id="" aria-label=""><br>   <!--understand no. of attributes-->
+
+        <!--Other Input attribute-->
+
+        date : <input type="date"><br>
+        file : <input type="file"><br>
+        color : <input type="color"><br>
+        price range : <input type="range"><br>
+        click me : <input type="button" value="done"><br>
+        submit : <input type="submit"><br>
+        search : <input type="search" ><br>
+        
+
+        <!--Radio-->
+
+        male : <input type="radio" name="gender" value="male"><br>
+        female : <input type="radio" name="gender" value="female"><br>
+        other : <input type="radio" name="gender" value="other"><br>          <!--only one will be selected if name will same-->
+        male : <input type="radio" name="gender1" value="male"><br>           <!-- for different name multiple item will be selected-->
+        <label for="female">female</label>
+        <input type="radio" id="female" name="gender1" value="female"><br>     <!--to connect label and input-->
+
+        <!--Checkbox-->
+
+        <label for="C">C :</label>
+        <input type="checkbox"  name="lang"  id="C"><br>
+        <label for="C++">C++ :</label>
+        <input type="checkbox"  name="lang"  id="C++"><br>
+        <label for="Java">Java :</label>
+        <input type="checkbox"  name="lang"  id="Java"><br>
+
+        <!--Dropdown/select-->
+
+        <label for="country">Country :</label>
+        <select name="country" id="country">
+            <option value="india">india</option>
+            <option value="usa">usa</option>
+            <option value="uk">uk</option>
+            <option value="australia">australia</option>
+            <option value="canada">canada</option>
+            <option value="other">other</option>
+        </select><br>
+
+        <!--Text Area-->
+
+        <textarea name="Story" id="Story" cols="40" rows="10"></textarea><br>
+            Please write your Story<br>
+
+
+        <button>Submit</button><br>    <!--to develop button-->
+        <button>back</button>
+    </form>
+</body>
+</html>
